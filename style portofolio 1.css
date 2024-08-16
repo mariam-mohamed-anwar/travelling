@@ -1,0 +1,71 @@
+
+body {
+     background-color: #ffffff;
+    }
+    .app-bar {
+ background-color: #0400ff;
+ color: #000000;
+ padding: 1rem;
+  display: flex;
+ justify-content: space-between;
+ align-items: center;
+}
+
+.app-bar-logo {
+      margin-right: 1rem;
+        }
+        
+.app-bar-nav {
+ list-style: none;
+ margin: 0;
+padding: 0;
+display: flex;
+}
+        
+.app-bar-nav li {
+margin-right: 1rem;
+}
+        
+.app-bar-nav a {
+ color: #002aff;
+    text-decoration: none;
+    }
+
+app-bar-actions {
+ display: flex;
+ align-items: center;
+}
+        
+.app-bar-actions .btn {
+margin-left: 1rem;
+}
+
+.list {
+
+  li { color:#0a60ea ; }
+}
+nav ul {
+  background-color: #000000;
+  border-style: solid;
+  border-color: #2e60eb;
+  border-width: 2px;
+  padding: 10px;
+  border-radius: 10px;
+}
+nav ul li {
+  list-style-type: none;
+  display: inline;
+  margin-right: 10px;
+  margin-left: 10px;
+  color:  #36a1ff ;
+}
+nav ul li a {
+  text-decoration: none;
+  color: #13a0ff;
+}
+/* Add hover effects to the nav menu directly instead of with a class */
+nav ul li a:hover {
+  animation-name: glowPulse;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+}
